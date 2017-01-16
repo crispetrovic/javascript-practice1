@@ -1,0 +1,24 @@
+body {
+font-family: Perpetua, Baskerville, "Big Caslon", "Palatino Linotype", Palatino,
+    "URW Palladio L", "Nimbus Roman No9 L", serif;
+background-color: #ADD8E6;
+}
+h1{
+    color: #be6764;
+}
+ol{
+    background-color: #ffffff;
+}
+li{
+    color: #3a87e9;
+    font-size: 22px;
+}
+input{
+    color: #3a87e9;
+    font-weight: bold;
+}
+fieldset{
+    color: #be6764;
+    font-weight: bold;
+    font-size: 19px;
+}

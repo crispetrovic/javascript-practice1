@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US" ng-app="listApp">
+    <head>
+        <title>ToDos for Today</title>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.2/angular.min.js"></script>
+        <script type="text/javascript" src="script11.js"></script>
+        <link rel="stylesheet" href="style1.css" />
+    </head>
+    <body ng-controller="listController">
+        <h1>List of ToDo Items for Today</h1>
+    <hr />
+    <ol>
+        <li ng-repeat="item in items">
+            {{item}}
+        </li>
+    </ol>
+    <hr />
+    <form>
+        <fieldset>
+            <legend>Add Another Item</legend>
+            <input type="text" ng-model="newItem" placeholder="type ToDo item here" />
+            <button ng-click="addItem()">&#43;</button>
+        </fieldset>
+    </form>
+    </body>
+</html>
